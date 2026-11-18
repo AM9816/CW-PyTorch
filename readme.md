@@ -18,5 +18,5 @@ Run the proof.py file as so, this will enumerate all the results, reproduce them
 python -c "import proof; proof.runProofs(n=512, bsize=64)"
 ```
 
-Either include the checkpoint directory in the local or allow the script to train replacements (note running the script without the preloaded checkpoints in the .zip will take significantly longer)
+Either include the checkpoint directory in the local directory or allow the script to train replacements (note running the script without the preloaded checkpoints in the .zip will take significantly longer)
 
