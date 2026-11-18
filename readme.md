@@ -1,10 +1,11 @@
+Make sure to use Python 3.13.7
 
 Install the required Python packages using pip
 ```bash
 pip install torch torchvision tqdm
 ```
 
-make sure that the checkpoints folder is in the same directory as proof.py, and that it contains the following:
+Make sure that the checkpoints folder is in the same directory as proof.py, and that it contains the following:
 - `mnist.pt`
 - `mnist_distil_dict.pt`
 - `latest_T1.pt`
